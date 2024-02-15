@@ -1,0 +1,67 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, form, input, textarea, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #54829d;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+section table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+section table, section th, section td {
+    border: 1px solid #ddd;
+}
+
+section th, section td {
+    padding: 8px;
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+img{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+}

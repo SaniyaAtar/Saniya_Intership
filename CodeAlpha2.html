@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="code2.css">
+</head>
+<body>
+    <header>
+        <h1>Money Manager</h1>
+    </header>
+
+    <div class="container">
+        <form id="expense-form">
+            <input type="hidden" id="expenseId">
+            <label for="text">Expense</label>
+            <input type="text" id="text" placeholder="Enter expense..." required>
+            <label for="amount">Amount</label>
+            <input type="number" id="amount" placeholder="Enter amount..." required>
+            <button id="submitBtn" type="submit">Add Expense</button>
+            <button id="updateBtn" style="display:none;">Update Expense</button>
+            <button id="cancelBtn" style="display:none;">Cancel</button>
+        </form>
+
+        <div class="expense-list">
+            <h3>Expense List</h3>
+            <ul id="expenses"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
